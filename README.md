@@ -45,3 +45,10 @@ grid-column:1/-1
 ```bash
 fr unit
 ```
+
+### To spacify names to grid areas
+```bash
+grid-template-areas: "nameOfArea"
+```
+
+### 
