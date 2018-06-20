@@ -3,14 +3,17 @@
 ```bash
 grid-template-rows: sizeOfFristRowpx sizeOfSecondRowpx sizeOfThirdRowpx ...
 ```
+
 ### To create coloumns and size them
 ```bash
 grid-template-coloumns: sizeOfFristColoumnpx sizeOfSecondColoumnpx sizeOfThirdColoumnpx ...
 ```
+
 ### To give a gap between rows and coloumns
 ```bash
 grid-gap: amountOfGapInNumberspx
 ```
+
 ### To view the gap
 Inspect element/layout
 
@@ -28,4 +31,17 @@ grid-auto-flow: column
 ```bash
 grid-auto-column: sizeOfFristColumnpx sizeOfSecondColumnpx sizeOfThirdColumnpx ...
 ```
-### To 
+
+### To build a No. rows with same size
+```bash
+grid-template-rows: repeat(n, sizeOfTheRow) [*n is the number of times you want to repeat the column]
+```
+### To span 1 entair column
+```bash
+grid-column:1/-1
+```
+
+### Unit to be used to take up full free space
+```bash
+fr unit
+```
